@@ -1,0 +1,46 @@
+<style>
+.myplugin-report-container {
+    display: flex;
+}
+
+.myplugin-sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.myplugin-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.myplugin-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.myplugin-sidebar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #0073aa;
+}
+
+.myplugin-sidebar ul li a:hover {
+    background-color: #0073aa;
+    color: white;
+}
+
+.myplugin-sidebar ul li a.nav-tab-active {
+    background-color: #0073aa;
+    color: white;
+}
+
+.myplugin-content {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+</style>
